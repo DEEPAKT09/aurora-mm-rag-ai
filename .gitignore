@@ -1,0 +1,27 @@
+# Virtual environment
+.venv/
+venv/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Generated databases and indexes
+data/
+storage/
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+
+# IDE and editor files
+.idea/
+.vscode/
+
+.pytest_cache/
+*.db
