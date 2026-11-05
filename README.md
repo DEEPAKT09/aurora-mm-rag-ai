@@ -104,7 +104,7 @@ aurora_ai/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/aurora-ai.git
+git clone https://github.com/DEEPAKT09/aurora-ai.git
 cd aurora-ai
 ```
 
@@ -132,7 +132,6 @@ Create a `.env` file in the project root:
 
 ```env
 GEMINI_API_KEY=your_gemini_api_key
-GOOGLE_API_KEY=your_gemini_api_key
 ```
 
 Never commit your `.env` file or expose API credentials publicly.
@@ -161,7 +160,6 @@ Deployment configuration:
 Configure the following environment variables in Render:
 
 - `GEMINI_API_KEY`
-- `GOOGLE_API_KEY`
 - `PYTHON_VERSION` (3.12.4)
 
 **Deployment Note:** The application uses temporary local storage for uploaded documents and generated indexes. On Render's free tier, the filesystem is ephemeral, so uploaded documents and indexes may not survive service restarts, spin-downs, or redeployments.
